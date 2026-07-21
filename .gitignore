@@ -1,0 +1,27 @@
+outputs/
+results/
+logs/
+checkpoints/
+data/
+*.log
+*.out
+*.pt
+*.jsonl
+*.slurm
+*.pyc
+__pycache__/
+.pytest_cache/
+mathvision_images/
+training/output/
+.venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
